@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@500&display=swap');
+
+body {
+    font-family: 'SUSE', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #48cae4;
+    color: #F1FAEE;
+    height: 90px;
+    display: flex;
+}
+
+header h1 {
+    flex: 20;
+    padding: 8px 0px 0px 20px;
+}
+nav {
+    flex: 80;
+    text-align: right;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px 0px 0px
+}
+
+nav a {
+   color: #F1FAEE;
+   text-decoration: none;
+}
+
+nav a:hover {
+    color: #bde0fe;
+    text-decoration: none;
+    background-color: #669bbc;
+    padding: 5px;
+}
+
+hero {
+    background-color: #1d3557;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50% ;
+}
+
+hero h2 {
+    margin: 0;
+    color: #F1FAEE;
+}
+
+hero p {
+    color: #f8f9fa ;
+}
+
+.cta {
+    padding: 10px;
+    margin: 8px;
+}
+
+.btn-cta {
+    background-color: #48cae4;
+    color: #f8f9fa;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+#About {
+    display: flex;
+    border: 1px solid #03045e;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.About-left {
+    flex: 50px;
+    padding-left: 15px;
+}
+
+.About-right {
+    flex: 50px;
+}
+
+td {
+    width: 10%;
+}
+
+.title {
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    gap: 5;
+    border: 1px solid #03045e;
+    margin: 20px;
+    
+}
+
+.skills-left {
+    flex: 50;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.skills-right {
+    flex: 50;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+#progress {
+    background-color: #4cc9f0;
+}
+
+#progress > div {
+    background-color: #00296b;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    color: #F1FAEE;
+  }  
+#education {
+    display: flex;
+    gap: 5;
+    border: 1px solid #03045e;
+    margin: 20px;
+}
+.education-left {
+    flex: 40;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: #4cc9f0;
+    text-align: center;
+    padding-top: 20px;
+}
+.education-right {
+    flex: 60;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+.sekolah {
+    font-size: medium;
+    color: #A9A9A9;
+}
+
+
+#contact {
+display: flex;
+gap: 8;
+border: 1px solid rgba(0, 0, 0, 0.16);
+border-radius: 5px;
+margin: 25px;
+}
+.left-contact {
+flex: 50;
+padding: 5px 0px 7px 10px;
+}
+.left-contact input {
+width: 100%;
+padding: 5px 5px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #064789;
+border-radius: 5px;
+box-sizing: border-box;
+}
+.left-contact textarea {
+width: 100%;
+height: 120px;
+padding: 5px 5px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 1px solid #064789;
+border-radius: 5px;
+background-color: #f8f8f8;
+resize: none;
+}
+
+.contact-btn {
+width: 100%;
+padding: 5px 5px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+background-color: #064789;
+border-radius: 5px;
+box-sizing: border-box;
+color: #fff;
+}
+.right-contact {
+flex: 50;
+padding: 5px 10px 5px 15px;
+}
+footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+/*justify-content: center;*/
+background-color: #ccc;
+padding: 10px;
+line-height: normal;
+}
+.icon-sosmed {
+margin-right: 4px;
+margin-bottom: 0;
+color: #427aa1;
+font-size: 20px;
+text-decoration: none;
+font-weight: bold;
+}
+.icon-sosmed:hover {
+color: #064789;
+}
+footer h3 {
+font-size: 23px;
+color: #064789;
+padding: 2px;
+margin: 2px;
+}
+
+footer p {
+color: #064789;
+margin: 2px;
+padding: 3px;
+}
